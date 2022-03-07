@@ -24,8 +24,9 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray</id>
-            <url>https://api.bintray.com/maven/akuznetsov/russianmorphology/morphology</url>
+            <id>github</id>
+            <name>GitHub Gymbossbot Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/gymbossbot/russianmorphology</url>
         </repository>
     </distributionManagement>
 
