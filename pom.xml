@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.apache.lucene.morphology</groupId>
     <artifactId>morphology</artifactId>
@@ -8,13 +9,6 @@
     <version>1.5</version>
     <name>morphology</name>
     <url>https://maven.apache.org</url>
-
-    <scm>
-        <connection>scm:git:https://github.com/AKuznetsov/russianmorphology.git</connection>
-        <developerConnection>scm:git:git@github.com:AKuznetsov/russianmorphology.git</developerConnection>
-        <url>https://github.com/AKuznetsov/russianmorphology</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <properties>
         <lucene.version>8.11.0</lucene.version>
@@ -180,6 +174,5 @@
         <module>dictionary-reader</module>
         <module>russian</module>
         <module>english</module>
-        <module>solr-morphology-analysis</module>
     </modules>
 </project>
